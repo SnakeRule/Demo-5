@@ -10,6 +10,5 @@ namespace Excercise_4
     {
         public string Name { get; set; }
         public string Type { get; set; }
-        public int Ammo { get; set; }
     }
 }

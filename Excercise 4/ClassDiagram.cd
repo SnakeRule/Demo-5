@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Excercise_4.HeavyWeapons" Collapsed="true">
-    <Position X="3.5" Y="2.75" Width="1.5" />
+  <Class Name="Excercise_4.Inventory">
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>HeavyWeapons.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Excercise_4.Inventory" Collapsed="true">
-    <Position X="2.75" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAAEAQAAQAAACAAAAACAAAAAAJBAAAAAAEDAgAAAEAE=</HashCode>
       <FileName>Inventory.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,25 +14,11 @@
       <FileName>ItemBase.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Excercise_4.Pistols" Collapsed="true">
-    <Position X="2" Y="2.75" Width="1.5" />
+  <Class Name="Excercise_4.Weapons" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Pistols.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Excercise_4.Rifles" Collapsed="true">
-    <Position X="0.5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Rifles.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Excercise_4.SupportWeapons" Collapsed="true">
-    <Position X="5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SupportWeapons.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -90,7 +90,7 @@ namespace Excercise_4
             Console.WriteLine("Heavy Weapons: \n");
             foreach (Weapons heavies in heavies)
             {
-                Console.WriteLine("Weapon Name: " + heavies.Name + "\nType : " + heavies.Type + "\nAmmo : " + heavies.Ammo + "\n");
+                Console.WriteLine("Weapon Name: " + heavies.Name + "\nType : " + heavies.Type + "\nAmmo : " + heavies.Ammo + "\nWeight : " + heavies.Weight + " KG\n");
             }
             Console.WriteLine();
         }
@@ -100,7 +100,7 @@ namespace Excercise_4
             Console.WriteLine("Rifles: \n");
             foreach (Weapons rifles in rifles)
             {
-                Console.WriteLine("Weapon Name: " + rifles.Name + "\nType : " + rifles.Type + "\nAmmo : " + rifles.Ammo + "\n");
+                Console.WriteLine("Weapon Name: " + rifles.Name + "\nType : " + rifles.Type + "\nAmmo : " + rifles.Ammo + "\nWeight : " + rifles.Weight + " KG\n");
             }
             Console.WriteLine();
         }
@@ -110,7 +110,7 @@ namespace Excercise_4
             Console.WriteLine("Pistols: \n");
             foreach (Weapons pistols in pistols)
             {
-                Console.WriteLine("Weapon Name: " + pistols.Name + "\nType : " + pistols.Type + "\nAmmo : " + pistols.Ammo + "\n");
+                Console.WriteLine("Weapon Name: " + pistols.Name + "\nType : " + pistols.Type + "\nAmmo : " + pistols.Ammo + "\nWeight : " + pistols.Weight + " KG\n");
             }
             Console.WriteLine();
         }
@@ -120,7 +120,7 @@ namespace Excercise_4
             Console.WriteLine("Support Weapons: \n");
             foreach (Weapons supports in supports)
             {
-                Console.WriteLine("Weapon Name: " + supports.Name + "\nType : " + supports.Type + "\nAmmo : " + supports.Ammo + "\n");
+                Console.WriteLine("Weapon Name: " + supports.Name + "\nType : " + supports.Type + "\nAmmo : " + supports.Ammo + "\nWeight : " + supports.Weight + " KG\n");
             }
             Console.WriteLine();
         }
@@ -130,7 +130,7 @@ namespace Excercise_4
             Console.WriteLine("Loadout: \n");
             foreach (Weapons loadout in loadout)
             {
-                Console.WriteLine("Weapon Name: " + loadout.Name + "\nType : " + loadout.Type + "\nAmmo : " + loadout.Ammo + "\n");
+                Console.WriteLine("Weapon Name: " + loadout.Name + "\nType : " + loadout.Type + "\nAmmo : " + loadout.Ammo + "\nWeight : " + loadout.Weight + " KG\n");
             }
             Console.WriteLine();
         }

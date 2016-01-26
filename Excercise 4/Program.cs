@@ -10,14 +10,14 @@ namespace Excercise_4
     {
         static void Main(string[] args)
         {
-            Weapons heavy1 = new Weapons { Name = "LPG-61", Type = "Light Machinegun", Ammo = 500 };
-            Weapons heavy2 = new Weapons { Name = "RPG", Type = "Rocket Propelled Grenade Launcher", Ammo = 5 };
-            Weapons rifle1 = new Weapons { Name = "AM MRS-4", Type = "Rifle", Ammo = 200 };
-            Weapons rifle2 = new Weapons { Name = "M2000", Type = "Sniper rifle", Ammo = 40 };
-            Weapons pistol1 = new Weapons { Name = "WU Tranq pistol", Type = "Tranq. Pistol", Ammo = 50 };
-            Weapons pistol2 = new Weapons { Name = "WU S333", Type = "Revolver", Ammo = 30 };
-            Weapons support1 = new Weapons { Name = "M21 D-Mine", Type = "Claymore", Ammo = 3 };
-            Weapons support2 = new Weapons { Name = "Plushie", Type = "Cute Plushie Decoy", Ammo = 3 };
+            Weapons heavy1 = new Weapons { Name = "LPG-61", Type = "Light Machinegun", Ammo = 500, Weight = 6 };
+            Weapons heavy2 = new Weapons { Name = "RPG", Type = "Rocket Propelled Grenade Launcher", Ammo = 5, Weight = 10 };
+            Weapons rifle1 = new Weapons { Name = "AM MRS-4", Type = "Rifle", Ammo = 200, Weight = 3 };
+            Weapons rifle2 = new Weapons { Name = "M2000", Type = "Sniper rifle", Ammo = 40, Weight = 5 };
+            Weapons pistol1 = new Weapons { Name = "WU Tranq pistol", Type = "Tranq. Pistol", Ammo = 50, Weight = 1.5 };
+            Weapons pistol2 = new Weapons { Name = "WU S333", Type = "Revolver", Ammo = 30, Weight = 1.5 };
+            Weapons support1 = new Weapons { Name = "M21 D-Mine", Type = "Claymore", Ammo = 3, Weight = 2 };
+            Weapons support2 = new Weapons { Name = "Plushie", Type = "Cute Plushie Decoy", Ammo = 3, Weight = 0.5 };
 
 
             Inventory inventory = new Inventory();
