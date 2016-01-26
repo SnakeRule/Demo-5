@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example drawing application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excercise 1", "Excercise 1\Excercise 1.csproj", "{AE1A28E8-8660-4AF0-A9EF-56BB2CDF454C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excercise 2", "Excercise 2\Excercise 2.csproj", "{63819FCA-367F-49B7-A821-032E526A3380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excercise 4", "Excercise 4\Excercise 4.csproj", "{C23AD205-0920-4B53-A211-040977A61A70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{AE1A28E8-8660-4AF0-A9EF-56BB2CDF454C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE1A28E8-8660-4AF0-A9EF-56BB2CDF454C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE1A28E8-8660-4AF0-A9EF-56BB2CDF454C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63819FCA-367F-49B7-A821-032E526A3380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63819FCA-367F-49B7-A821-032E526A3380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63819FCA-367F-49B7-A821-032E526A3380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63819FCA-367F-49B7-A821-032E526A3380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23AD205-0920-4B53-A211-040977A61A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23AD205-0920-4B53-A211-040977A61A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23AD205-0920-4B53-A211-040977A61A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23AD205-0920-4B53-A211-040977A61A70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
