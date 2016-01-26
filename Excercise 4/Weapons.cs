@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Excercise_4
 {
-    class SupportWeapons : ItemBase
+    class Weapons : ItemBase
     {
     }
 }

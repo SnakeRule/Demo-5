@@ -10,7 +10,58 @@ namespace Excercise_4
     {
         static void Main(string[] args)
         {
+            Weapons heavy1 = new Weapons { Name = "LPG-61", Type = "Light Machinegun", Ammo = 500 };
+            Weapons heavy2 = new Weapons { Name = "RPG", Type = "Rocket Propelled Grenade Launcher", Ammo = 5 };
+            Weapons rifle1 = new Weapons { Name = "AM MRS-4", Type = "Rifle", Ammo = 200 };
+            Weapons rifle2 = new Weapons { Name = "M2000", Type = "Sniper rifle", Ammo = 40 };
+            Weapons pistol1 = new Weapons { Name = "WU Tranq pistol", Type = "Tranq. Pistol", Ammo = 50 };
+            Weapons pistol2 = new Weapons { Name = "WU S333", Type = "Revolver", Ammo = 30 };
+            Weapons support1 = new Weapons { Name = "M21 D-Mine", Type = "Claymore", Ammo = 3 };
+            Weapons support2 = new Weapons { Name = "Plushie", Type = "Cute Plushie Decoy", Ammo = 3 };
 
+
+            Inventory inventory = new Inventory();
+
+            inventory.CreateHeavyList(heavy1, heavy2);
+            inventory.CreateRifleList(rifle1, rifle2);
+            inventory.CreatePistolList(pistol1, pistol2);
+            inventory.CreateSupportList(support1, support2);
+
+            bool loop = true;
+            int input;
+
+            do {
+                Console.WriteLine("Menu:");
+                Console.WriteLine("1. Show Heavy Weapons");
+                Console.WriteLine("2. Show Rifles");
+                Console.WriteLine("3. Show Pistols");
+                Console.WriteLine("4. Show Support weapons");
+                Console.WriteLine("5. Create Loadout");
+                Console.WriteLine("6. View Loadout");
+                Console.WriteLine("7. Quit");
+                input = int.Parse(Console.ReadLine());
+                Console.Clear();
+                switch (input)
+                {
+                    case 1: inventory.ShowHeavyList(); break;
+
+                    case 2: inventory.ShowRifleList(); break;
+
+                    case 3: inventory.ShowPistolList(); break;
+
+                    case 4: inventory.ShowSupportList(); break;
+
+                    case 5:
+                        {
+                            inventory.CreateLoudOut();
+                            break;
+                        }
+
+                    case 6: inventory.ShowLoadOut(); break;
+
+                    case 7: loop = false; break;
+                }
+            } while (loop == true);
         }
     }
 }
